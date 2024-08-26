@@ -1,1 +1,36 @@
-
+{
+  "name": "dustar-website",
+  "version": "1.0.0",
+  "description": "A non-profit website for a specialized mask design aimed at woodworking safety, featuring a reticulated polyurethane/rubber foam filter, perforated foam buccal region, and clear plastic visors.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open",
+    "test": "jest"
+  },
+  "keywords": [
+    "non-profit",
+    "mask",
+    "woodworking",
+    "safety",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.4.0",
+    "style-loader": "^3.3.1"
+  }
+}
